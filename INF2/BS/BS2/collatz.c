@@ -12,6 +12,7 @@ typedef struct int_b_e {
     ull_t begin;
     ull_t end;
     ull_t maxX;
+    ull_t maxIterations;
     ull_t threadIterations;
 } structStartEnd;
 
@@ -48,6 +49,7 @@ void *collatz(void *args) {
 
     startEnd->maxX = maxX;
     startEnd->threadIterations = threadIterations;
+    startEnd->maxIterations = maxCnt;
 
     return NULL;
 }
@@ -65,10 +67,17 @@ int main() {
         pthread_create(&threads[i], NULL, &collatz, &threadParams[i]);
     }
 
+    uint64_t longest = 0;
+    uint64_t longestInt = 0;
     for(int i = 0; i < THREADS; i++) {
         pthread_join(threads[i], NULL);
-        printf("Thread: %d | MaxX: %ld | Iterationen dieses Threads: %ld\n", i, threadParams[i].maxX, threadParams[i].threadIterations);
+        if(threadParams[i].maxIterations > longest) {
+            longest = threadParams[i].maxIterations;
+            longestInt = threadParams[i].maxX;
+        }
+        //printf("Thread: %d | MaxX: %ld | Iterationen dieses Threads: %ld\n", i, threadParams[i].maxX, threadParams[i].threadIterations);
     }
 
+    printf("Längste Folge: %ld  mit Startwert: %ld\n", longest, longestInt);
     return 0;
 }
