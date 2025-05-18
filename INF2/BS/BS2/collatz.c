@@ -3,7 +3,7 @@
 #include <malloc.h>
 #include <inttypes.h>
 
-#define THREADS 16
+#define THREADS 12
 uint64_t ITERATIONS = 100000000;
 
 typedef uint64_t ull_t;
