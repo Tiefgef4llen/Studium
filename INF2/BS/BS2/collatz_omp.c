@@ -26,19 +26,31 @@ int main() {
     uint64_t maxIterations = 0;
     uint64_t besterStartWert = 0;
     
-    #pragma omp parallel for
-    for (uint64_t i = 1; i <= ITERATIONS; i++) {
-        //printf("%d\n", omp_get_num_threads()); // Ausgabe ist 12
-        uint64_t iter_tmp = collatz(i);
+   #pragma omp parallel
+    {
+        int local_max_length = 0;
+        uint64_t local_best_number = 0;
+
+        // Paralleles for (nowait auf nummer sicher)
+        #pragma omp for nowait
+        for (int i = 1; i <= 100000000; i++) {
+            int length = collatz(i);
+            if (length > local_max_length) {
+                local_max_length = length;
+                local_best_number = i;
+            }
+        }
+
+        // globales udpaten (alle Threads greifen drauf zu)
         #pragma omp critical
         {
-            if (iter_tmp > maxIterations) {
-                maxIterations = iter_tmp;
-                besterStartWert = i;
+            if (local_max_length > maxIterations) {
+                maxIterations = local_max_length;
+                besterStartWert = local_best_number;
             }
-            //printf("Thread %d: Zahl: %ld, Länge: %ld\n", omp_get_thread_num(), i, iter_tmp);       
         }
     }
+
 
     /*
     #pragma omp for private(local) private(maxIterations) private(besterStartWert)

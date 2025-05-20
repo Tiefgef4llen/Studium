@@ -28,7 +28,7 @@ std::pair<int, int> laengsteFolge(int start, int end) {
 }
 
 int main() {
-    int threadCnt = 28;
+    int threadCnt = 2;
     std::vector<std::future<std::pair<int, int>>> futures;
 
     for(int i = 0; i < threadCnt; i++) {
@@ -49,7 +49,7 @@ int main() {
         }
     }
 
-    std::cout << "Zahl mit der längsten Collatz-Folge zwischen 0 und 10000: " << best_number << std::endl;
+    std::cout << "Zahl mit der längsten Collatz-Folge zwischen 0 und 100000000: " << best_number << std::endl;
     std::cout << "Länge der Folge: " << max_length << std::endl;
 
     return 0;

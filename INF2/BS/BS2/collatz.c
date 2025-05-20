@@ -3,17 +3,15 @@
 #include <malloc.h>
 #include <inttypes.h>
 
-#define THREADS 12
+#define THREADS 16
 uint64_t ITERATIONS = 100000000;
 
-typedef uint64_t ull_t;
-
 typedef struct int_b_e {
-    ull_t begin;
-    ull_t end;
-    ull_t maxX;
-    ull_t maxIterations;
-    ull_t threadIterations;
+    uint64_t begin;
+    uint64_t end;
+    uint64_t maxX;
+    uint64_t maxIterations;
+    uint64_t threadIterations;
 } structStartEnd;
 
 
@@ -22,16 +20,16 @@ void *collatz(void *args) {
     structStartEnd* startEnd = (structStartEnd*)args;
 
     // Längste Folge berechnen
-    ull_t maxX = 0;
-    ull_t maxCnt = 0;
-    ull_t threadIterations = 0;
+    uint64_t maxX = 0;
+    uint64_t maxCnt = 0;
+    uint64_t threadIterations = 0;
 
     if(startEnd->begin == 0) startEnd->begin = 1;
 
     //printf("Thread Begin %ld, End %ld\n", startEnd->begin, startEnd->end);
-    for(ull_t i = startEnd->begin; i < startEnd->end; i++) {
+    for (uint64_t i = startEnd->begin; i < startEnd->end; i++) {
         int cnt = 0;
-        ull_t x = i;
+        uint64_t x = i;
         while(x > 1) {
             if((x % 2) == 0) {
                 x = x/2;
@@ -75,7 +73,7 @@ int main() {
             longest = threadParams[i].maxIterations;
             longestInt = threadParams[i].maxX;
         }
-        //printf("Thread: %d | MaxX: %ld | Iterationen dieses Threads: %ld\n", i, threadParams[i].maxX, threadParams[i].threadIterations);
+        printf("Thread: %d | MaxX: %ld | Iterationen dieses Threads: %ld\n", i, threadParams[i].maxX, threadParams[i].threadIterations);
     }
 
     printf("Längste Folge: %ld  mit Startwert: %ld\n", longest, longestInt);
