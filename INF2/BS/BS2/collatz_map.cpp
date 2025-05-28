@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    cout << "Zahl mit der längsten Collatz-Folge zwischen 0 und 10000: " << best_number << endl;
+    cout << "Zahl mit der längsten Collatz-Folge zwischen 0 und 100000000: " << best_number << endl;
     cout << "Länge der Folge: " << max_length << endl;
 
     return 0;

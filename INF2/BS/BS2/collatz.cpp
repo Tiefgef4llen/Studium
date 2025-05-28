@@ -39,8 +39,9 @@ void collatz(long long start, long long end) {
 int main() {
     long long iterations = 100000000;
 
-    std::vector<std::pair<int, int>> ergebnise;
-
+    
+    //std::vector<std::pair<int, int>> ergebnise;
+    /*
     int num_threads = std::thread::hardware_concurrency(); // Get available threads
     std::vector<std::thread> threads;
     int range_per_thread = 10000 / num_threads;
@@ -54,14 +55,16 @@ int main() {
     for (auto& t : threads) {
         t.join(); // Wait for all threads to complete
     }
-
-    /*
+    */
+    
     // THREADS
     int threadCnt = 12;
     std::thread threads[threadCnt];
     for(int i = 0; i < threadCnt; i++) {
-        threads[i] = std::thread(collatz, i * (iterations/threadCnt), (i + 1)*(iterations/threadCnt), &ergebnise);
-        //std::cout << "Started thread with: " << i * (iterations/threadCnt) << " | " << (i + 1)*(iterations/threadCnt) << std::endl;
+        long long start = i * (iterations / threadCnt);
+        long long end = (i+1) * (iterations / threadCnt);
+        threads[i] = std::thread(collatz, start, end);
+        std::cout << "Started thread with: " << start << " | " << end << std::endl;
     }
     
     for(int i = 0; i < threadCnt; i++) {
@@ -71,12 +74,6 @@ int main() {
     int maxIterations = 0;
     int besterStart = 0;
 
-    for(const auto& e : ergebnise) {
-        if(e.first > maxIterations) {
-            maxIterations = e.first;
-            besterStart = e.second;
-        }
-    }
-    */
+    
     std::cout << " Meiste Iterations: " << max_length << " Mit Startwert: " << best_number << std::endl;
 }

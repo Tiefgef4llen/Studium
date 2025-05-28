@@ -111,6 +111,7 @@
     "typeinfo": "cpp",
     "condition_variable": "cpp",
     "future": "cpp",
-    "mutex": "cpp"
+    "mutex": "cpp",
+    "chrono": "cpp"
   }
 }

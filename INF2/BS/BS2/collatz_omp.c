@@ -28,25 +28,25 @@ int main() {
     
    #pragma omp parallel
     {
-        int local_max_length = 0;
-        uint64_t local_best_number = 0;
+        int localMaxIterations = 0;
+        uint64_t localBesterStart = 0;
 
-        // Paralleles for (nowait auf nummer sicher)
-        #pragma omp for nowait
+        // Paralleles for
+        #pragma omp for
         for (int i = 1; i <= 100000000; i++) {
             int length = collatz(i);
-            if (length > local_max_length) {
-                local_max_length = length;
-                local_best_number = i;
+            if (length > localMaxIterations) {
+                localMaxIterations = length;
+                localBesterStart = i;
             }
         }
 
         // globales udpaten (alle Threads greifen drauf zu)
         #pragma omp critical
         {
-            if (local_max_length > maxIterations) {
-                maxIterations = local_max_length;
-                besterStartWert = local_best_number;
+            if (localMaxIterations > maxIterations) {
+                maxIterations = localMaxIterations;
+                besterStartWert = localBesterStart;
             }
         }
     }
