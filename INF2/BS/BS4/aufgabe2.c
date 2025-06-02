@@ -4,12 +4,13 @@
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdatomic.h>
+#include <stdbool.h>
 
 
-#define CONSUMER 10
-#define PRODUCER 10
+#define CONSUMER 5
+#define PRODUCER 5
 
-#define MAXVAL 1
+#define MAXVAL 50
 
 //Semaphore -----
 sem_t sUsed;        // Anzahl belegter Plätze
@@ -20,16 +21,19 @@ pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;
 atomic_int gl_prod = 0;
 atomic_int gl_cons = 0;
 
+atomic_bool productionDone = false;
+
+
 //---
 
-atomic_int listLength = 0;
+int listLength = 0;
 
 typedef struct node {
     struct node* next;
     int data;
 } node_t;
 
-node_t* list = NULL;
+node_t* list;
 
 
 node_t* addFront(node_t* anchor, int data) {
@@ -64,7 +68,7 @@ void collatz(int x) {
 }
 
 void* producerFun(void* args) {
-    for(int i = 0; i < 5; i++) {
+    for(int i = 0; i < MAXVAL; i++) {
         if(listLength > 5) printf("Liste zu groß, Länge: %d\n", listLength);
 
         // Wartezeit erzeugen mit Collatz Funktion
@@ -79,46 +83,39 @@ void* producerFun(void* args) {
         list = addFront(list, data);
         printf("{Erzeuger: %ld} Erzeugt: %d\n", pthread_self(), data);
         atomic_fetch_add(&gl_prod, 1);
-        atomic_fetch_add(&listLength, 1);
+        listLength++;
 
         pthread_mutex_unlock(&mtx);
         sem_post(&sUsed);           // Used Anzahl um 1 erhöhen
+
+        if (atomic_fetch_add(&gl_prod, 1) == (PRODUCER * MAXVAL) - 1) {
+            atomic_store(&productionDone, true);
+        }
     }
 }
 
 void* consumerFun(void* args) {
-    //while(atomic_load(&listLength) != 0 && atomic_load(&gl_prod) == MAXVAL * PRODUCER) {
-    while(1){
-        printf("Consumed: %d, Produced: %d\n", atomic_load(&gl_cons), atomic_load(&gl_prod));
-
-
-
-        // Wartezeit erzeugen mit Collatz Funktion
+    while (true) {
         int number = rand();
         collatz(number);
 
-        // Falls keine Produzenten mehr aktiv und die Liste leer ist -> Beenden!
-        if ((listLength == 0) && (atomic_load(&gl_prod) == 5 * PRODUCER)) {
+        sem_wait(&sUsed);
+        pthread_mutex_lock(&mtx);
+
+        // Beenden, wenn Liste leer und Produktion abgeschlossen
+        if (list->next == NULL && atomic_load(&productionDone)) {
             pthread_mutex_unlock(&mtx);
-            sem_post(&sUsed);  // Entblockt evtl. weitere wartende Threads
-            break;
+            sem_post(&sUsed);  // Andere wartende Threads entblocken
+            break;  // Thread beendet sich
         }
 
-        // Berechnen
-        int semvalue;
-        sem_getvalue(&sUsed, &semvalue);
-        if(semvalue == 0) printf("Waiting\n");
-        sem_wait(&sUsed);           // Nur weitermachen, wenn Liste nicht leer ist (sUsed != 0)
-        pthread_mutex_lock(&mtx);   // Mutex locken
-
-
         int removed = removeEnd(list);
-        atomic_fetch_sub(&listLength, 1);
         atomic_fetch_add(&gl_cons, 1);
+        listLength--;
         printf("{Verbraucher: %ld} Verbraucht: %d\n", pthread_self(), removed);
 
         pthread_mutex_unlock(&mtx);
-        sem_post(&sFree);           // Anzahl Freier Plätze um 1 erhöhen
+        sem_post(&sFree);
     }
 }
 
@@ -126,10 +123,10 @@ int main () {
     srand(pthread_self());
 
     sem_init(&sUsed, 0, 0);
-    sem_init(&sFree, 0, 5);
+    sem_init(&sFree, 0, 100);
 
     list = malloc(sizeof(node_t));
-    //list->next = NULL;
+    list->next = NULL;
 
 
     pthread_t producer[PRODUCER];
@@ -161,4 +158,3 @@ int main () {
 
     return 0;
 }
-
