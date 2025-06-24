@@ -6,6 +6,7 @@
 #include <time.h>
 #include <stdbool.h>
 
+
 #define PLAYER_COUNT 2
 
 typedef struct {
@@ -20,46 +21,51 @@ player_t players[PLAYER_COUNT];
 pthread_mutex_t mtx = PTHREAD_MUTEX_INITIALIZER;
 sem_t sem_player_done[PLAYER_COUNT];
 sem_t sem_bank_continue;
-sem_t player_turn;
+
+sem_t player_turn, player_fertig;
 
 int runde = 0;
+bool RundeFertig = false;
 bool SpielFetig = false;
 
-// Karte ziehen (1 bis 11)
 int karteZiehen() {
     return rand() % 11 + 1;
 }
 
+
 void* bank_worker(void* arg) {
-    printf("Bank is running.\n");
+    //printf("Bank is running.\n");
 
     while(!SpielFetig) {
-        printf("\nRunde %d\n", runde + 1);
+        printf("\nBank: Runde %d\n", runde);
 
-        // Spieler dürfen starten
+        // Semaphore für die Anzahl an Spielern freigeben
+        // => Spieler fangen an
         for(int i = 0; i < PLAYER_COUNT; i++) {
             sem_post(&player_turn);
         }
 
-        // Auf Spieler warten
+        // Warten bis alle Spieler fertig sind
+        // => Spieler müssen ihre Semaphore up()
         for(int i = 0; i < PLAYER_COUNT; i++) {
             sem_wait(&sem_player_done[i]);
         }
 
+        printf("\n");
+
         pthread_mutex_lock(&mtx);
 
-        // Ergebnisse analysieren
+        // Ergebnisse der Spieler auslesen
         int ergebnisse[PLAYER_COUNT];
         for(int i = 0; i < PLAYER_COUNT; i++) {
-            if (players[i].round_points > 21)
-                ergebnisse[i] = -1;
-            else
+            if(players[i].round_points > 21) ergebnisse[i] = -1;
+            else {
                 ergebnisse[i] = players[i].round_points;
-
-            printf("Spieler %d hat %d Punkte\n", i, ergebnisse[i]);
+            }
+            printf("Spieler %d: %d\n", i, ergebnisse[i]);
         }
-
-        // Gewinner finden
+        
+        // Besten Wert auslesen
         int max = -1;
         int besterSpieler = -1;
         for(int i = 0; i < PLAYER_COUNT; i++) {
@@ -69,43 +75,55 @@ void* bank_worker(void* arg) {
             }
         }
 
-        if (besterSpieler != -1) {
-            players[besterSpieler].score++;
-            printf("Spieler %d gewinnt die Runde! (Rundenpunkte: %d, Gesamtscore: %d)\n",
-                besterSpieler, ergebnisse[besterSpieler], players[besterSpieler].score);
-        } else {
-            printf("Niemand gewinnt die Runde.\n");
+        // Anzahl bestimmen gewinner
+        int anz = 0;
+ 
+        for (int i = 0; i < PLAYER_COUNT; i++) {
+            if (ergebnisse[i] == max && max != -1) {
+                anz++;
+            }
         }
 
-        // Spielende prüfen
+        if(anz > 1) printf("Unentschieden\n");
+        else {
+            if (besterSpieler != -1) {
+                players[besterSpieler].score++;
+                printf("Spieler %d hat gewonnen mit %d,  Gesamt: %d\n", besterSpieler, max, players[besterSpieler].score);
+            } else {
+                printf("Niemand gewinnt die Runde.\n");
+            }
+        }
+
+
+        // Check ob Spiel vorbei
         for(int i = 0; i < PLAYER_COUNT; i++) {
-            if (players[i].score >= 3) {
-                printf("Spiel vorbei! Gewinner ist Spieler %d mit %d Punkten.\n", i, players[i].score);
+            if(players[i].score > 2) {
+                printf("Vorbei. Gewinner ist Spieler %d\n", i);
                 SpielFetig = true;
             }
         }
 
         runde++;
         if (runde >= 50 && !SpielFetig) {
-            printf("50 Runden vorbei. Das Spiel endet unentschieden.\n");
+            printf("50 Runden vorbei. Unentschieden.\n");
             SpielFetig = true;
         }
-
         pthread_mutex_unlock(&mtx);
 
         sleep(1);
 
-        // Spieler dürfen weitermachen
+
         for(int i = 0; i < PLAYER_COUNT; i++) {
             sem_post(&sem_bank_continue);
         }
 
-        // Falls Spiel vorbei ist, Spieler entblocken
+        // Falls Spiel vorbei  Spieler entblocken
         if (SpielFetig) {
             for (int i = 0; i < PLAYER_COUNT; i++) {
                 sem_post(&player_turn);
             }
         }
+
     }
 
     return NULL;
@@ -151,41 +169,36 @@ int main() {
     pthread_t bank;
     pthread_t player[PLAYER_COUNT];
 
-    srand(time(NULL)); // Zufallszahlen initialisieren
-
-    // Semaphore initialisieren
     sem_init(&player_turn, 0, 0);
     sem_init(&sem_bank_continue, 0, 0);
     for(int i = 0; i < PLAYER_COUNT; i++) {
-        sem_init(&sem_player_done[i], 0, 0);
+       sem_init(&sem_player_done[i], 0, 0);
     }
 
-    // Spieler initialisieren
     for(int i = 0; i < PLAYER_COUNT; i++) {
         players[i].id = i;
         players[i].score = 0;
         players[i].round_points = 0;
+
     }
 
     pthread_create(&bank, NULL, bank_worker, NULL);
+
     for(int i = 0; i < PLAYER_COUNT; i++) {
         pthread_create(&player[i], NULL, player_worker, &players[i]);
     }
 
+
     pthread_join(bank, NULL);
+    
     for(int i = 0; i < PLAYER_COUNT; i++) {
         pthread_join(player[i], NULL);
     }
 
-    // Semaphore aufräumen
     sem_destroy(&player_turn);
     sem_destroy(&sem_bank_continue);
     for(int i = 0; i < PLAYER_COUNT; i++) {
-        sem_destroy(&sem_player_done[i]);
+       sem_destroy(&sem_player_done[i]);
     }
-
-    pthread_mutex_destroy(&mtx);
-
-    printf("Spiel beendet. Threads sauber geschlossen.\n");
     return 0;
 }
