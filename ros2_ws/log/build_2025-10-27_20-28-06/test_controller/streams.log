@@ -1,0 +1,32 @@
+[0.636s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/src/test_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/julian/workspace/Studium/ros2_ws/build/test_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_controller build --build-base /home/julian/workspace/Studium/ros2_ws/build/test_controller/build install --record /home/julian/workspace/Studium/ros2_ws/build/test_controller/install.log --single-version-externally-managed install_data
+[0.768s] running egg_info
+[0.768s] creating ../../build/test_controller/test_controller.egg-info
+[0.778s] writing ../../build/test_controller/test_controller.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../build/test_controller/test_controller.egg-info/dependency_links.txt
+[0.778s] writing requirements to ../../build/test_controller/test_controller.egg-info/requires.txt
+[0.778s] writing top-level names to ../../build/test_controller/test_controller.egg-info/top_level.txt
+[0.778s] writing manifest file '../../build/test_controller/test_controller.egg-info/SOURCES.txt'
+[0.798s] reading manifest file '../../build/test_controller/test_controller.egg-info/SOURCES.txt'
+[0.798s] writing manifest file '../../build/test_controller/test_controller.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.799s] creating /home/julian/workspace/Studium/ros2_ws/build/test_controller/build
+[0.799s] creating /home/julian/workspace/Studium/ros2_ws/build/test_controller/build/lib
+[0.799s] creating /home/julian/workspace/Studium/ros2_ws/build/test_controller/build/lib/test_controller
+[0.799s] copying test_controller/__init__.py -> /home/julian/workspace/Studium/ros2_ws/build/test_controller/build/lib/test_controller
+[0.799s] running install
+[0.803s] running install_lib
+[0.815s] creating /home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages/test_controller
+[0.815s] copying /home/julian/workspace/Studium/ros2_ws/build/test_controller/build/lib/test_controller/__init__.py -> /home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages/test_controller
+[0.815s] byte-compiling /home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages/test_controller/__init__.py to __init__.cpython-312.pyc
+[0.815s] running install_data
+[0.815s] creating /home/julian/workspace/Studium/ros2_ws/install/test_controller/share/ament_index
+[0.815s] creating /home/julian/workspace/Studium/ros2_ws/install/test_controller/share/ament_index/resource_index
+[0.815s] creating /home/julian/workspace/Studium/ros2_ws/install/test_controller/share/ament_index/resource_index/packages
+[0.815s] copying resource/test_controller -> /home/julian/workspace/Studium/ros2_ws/install/test_controller/share/ament_index/resource_index/packages
+[0.816s] copying package.xml -> /home/julian/workspace/Studium/ros2_ws/install/test_controller/share/test_controller
+[0.816s] running install_egg_info
+[0.827s] Copying ../../build/test_controller/test_controller.egg-info to /home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages/test_controller-0.0.0-py3.12.egg-info
+[0.827s] running install_scripts
+[0.889s] writing list of installed files to '/home/julian/workspace/Studium/ros2_ws/build/test_controller/install.log'
+[0.903s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/src/test_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/julian/workspace/Studium/ros2_ws/build/test_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_controller build --build-base /home/julian/workspace/Studium/ros2_ws/build/test_controller/build install --record /home/julian/workspace/Studium/ros2_ws/build/test_controller/install.log --single-version-externally-managed install_data
