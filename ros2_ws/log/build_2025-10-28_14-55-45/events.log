@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000275] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000307] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000337] (-) JobUnselected: {'identifier': 'test_controller'}
+[0.000370] (chatting) JobQueued: {'identifier': 'chatting', 'dependencies': OrderedDict()}
+[0.000404] (chatting) JobStarted: {'identifier': 'chatting'}
+[0.007314] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'cmake'}
+[0.008299] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'build'}
+[0.008399] (chatting) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/julian/workspace/Studium/ros2_ws/build/chatting', '--', '-j12', '-l12'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/workspace/Studium/ros2_ws', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6491c9d1-73f0-4b92-bfc0-6e28afda1579.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/23596_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/julian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/julian/.vscode-server/data/User/workspaceStorage/fd716749b24ba678c58173261b235927/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c11441a418.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.037522] (chatting) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.067568] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.098772] (-) TimerEvent: {}
+[0.157523] (chatting) StdoutLine: {'line': b'-- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[0.198899] (-) TimerEvent: {}
+[0.299327] (-) TimerEvent: {}
+[0.399732] (-) TimerEvent: {}
+[0.438110] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.445854] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.456713] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.470703] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499950] (-) TimerEvent: {}
+[0.530603] (chatting) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[0.532294] (chatting) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.572011] (chatting) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600187] (-) TimerEvent: {}
+[0.700570] (-) TimerEvent: {}
+[0.800944] (-) TimerEvent: {}
+[0.840512] (chatting) StdoutLine: {'line': b'-- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[0.855687] (chatting) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[0.864458] (chatting) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[0.901110] (-) TimerEvent: {}
+[1.001502] (-) TimerEvent: {}
+[1.101877] (-) TimerEvent: {}
+[1.119948] (chatting) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[1.201996] (-) TimerEvent: {}
+[1.263573] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.302279] (-) TimerEvent: {}
+[1.320100] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402479] (-) TimerEvent: {}
+[1.502987] (-) TimerEvent: {}
+[1.561368] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.568869] (chatting) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[1.569096] (chatting) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[1.569161] (chatting) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[1.569211] (chatting) StderrLine: {'line': b'\n'}
+[1.569259] (chatting) StderrLine: {'line': b'    target_link_libraries(talker PUBLIC\n'}
+[1.569305] (chatting) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[1.569352] (chatting) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[1.569397] (chatting) StderrLine: {'line': b'    )\n'}
+[1.569440] (chatting) StderrLine: {'line': b'\n'}
+[1.569485] (chatting) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.569629] (chatting) StderrLine: {'line': b'  CMakeLists.txt:27 (ament_target_dependencies)\n'}
+[1.569707] (chatting) StderrLine: {'line': b'\n'}
+[1.569758] (chatting) StderrLine: {'line': b'\x1b[0m\n'}
+[1.569990] (chatting) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.570078] (chatting) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.570129] (chatting) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.570178] (chatting) StderrLine: {'line': b'\n'}
+[1.570226] (chatting) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.570272] (chatting) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.570452] (chatting) StderrLine: {'line': b'\n'}
+[1.570504] (chatting) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.570551] (chatting) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_target_interfaces)\n'}
+[1.570597] (chatting) StderrLine: {'line': b'\n'}
+[1.570641] (chatting) StderrLine: {'line': b'\x1b[0m\n'}
+[1.571106] (chatting) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:87 (message):\n'}
+[1.571234] (chatting) StderrLine: {'line': b'  ament_target_dependencies() is deprecated.  Use target_link_libraries()\n'}
+[1.571299] (chatting) StderrLine: {'line': b'  with modern CMake targets instead.  Try replacing this call with:\n'}
+[1.571347] (chatting) StderrLine: {'line': b'\n'}
+[1.571395] (chatting) StderrLine: {'line': b'    target_link_libraries(listener PUBLIC\n'}
+[1.571442] (chatting) StderrLine: {'line': b'      ${std_msgs_TARGETS}\n'}
+[1.571486] (chatting) StderrLine: {'line': b'      rclcpp::rclcpp\n'}
+[1.571529] (chatting) StderrLine: {'line': b'    )\n'}
+[1.571573] (chatting) StderrLine: {'line': b'\n'}
+[1.571619] (chatting) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.571661] (chatting) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_target_dependencies)\n'}
+[1.571704] (chatting) StderrLine: {'line': b'\n'}
+[1.571746] (chatting) StderrLine: {'line': b'\x1b[0m\n'}
+[1.573975] (chatting) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/kilted/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.574155] (chatting) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.574211] (chatting) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[1.574260] (chatting) StderrLine: {'line': b'\n'}
+[1.574308] (chatting) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[1.574364] (chatting) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[1.574409] (chatting) StderrLine: {'line': b'\n'}
+[1.574451] (chatting) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.574496] (chatting) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_target_interfaces)\n'}
+[1.574540] (chatting) StderrLine: {'line': b'\n'}
+[1.574631] (chatting) StderrLine: {'line': b'\x1b[0m\n'}
+[1.580404] (chatting) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.603147] (-) TimerEvent: {}
+[1.618449] (chatting) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.634372] (chatting) StdoutLine: {'line': b'-- Build files have been written to: /home/julian/workspace/Studium/ros2_ws/build/chatting\n'}
+[1.670629] (chatting) StdoutLine: {'line': b'[  2%] Built target chatting__rosidl_generator_type_description\n'}
+[1.677834] (chatting) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_chatting\n'}
+[1.693458] (chatting) StdoutLine: {'line': b'[  7%] Built target chatting__cpp\n'}
+[1.694121] (chatting) StdoutLine: {'line': b'[ 18%] Built target chatting__rosidl_generator_c\n'}
+[1.704217] (-) TimerEvent: {}
+[1.719110] (chatting) StdoutLine: {'line': b'[ 26%] Built target chatting__rosidl_typesupport_introspection_c\n'}
+[1.723447] (chatting) StdoutLine: {'line': b'[ 34%] Built target chatting__rosidl_typesupport_introspection_cpp\n'}
+[1.723734] (chatting) StdoutLine: {'line': b'[ 42%] Built target chatting__rosidl_typesupport_c\n'}
+[1.725231] (chatting) StdoutLine: {'line': b'[ 50%] Built target chatting__rosidl_typesupport_cpp\n'}
+[1.726597] (chatting) StdoutLine: {'line': b'[ 57%] Built target chatting__rosidl_typesupport_fastrtps_c\n'}
+[1.727090] (chatting) StdoutLine: {'line': b'[ 65%] Built target chatting__rosidl_typesupport_fastrtps_cpp\n'}
+[1.744677] (chatting) StdoutLine: {'line': b'[ 65%] Built target chatting\n'}
+[1.764850] (chatting) StdoutLine: {'line': b'[ 68%] Built target chatting__py\n'}
+[1.768275] (chatting) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[1.776213] (chatting) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[1.789099] (chatting) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/chatting__rosidl_generator_py.dir/rosidl_generator_py/chatting/msg/_address_book_s.c.o\x1b[0m\n'}
+[1.804409] (-) TimerEvent: {}
+[1.904794] (-) TimerEvent: {}
+[1.942554] (chatting) StdoutLine: {'line': b'running egg_info\n'}
+[1.969460] (chatting) StdoutLine: {'line': b'writing chatting.egg-info/PKG-INFO\n'}
+[1.969845] (chatting) StdoutLine: {'line': b'writing dependency_links to chatting.egg-info/dependency_links.txt\n'}
+[1.970316] (chatting) StdoutLine: {'line': b'writing top-level names to chatting.egg-info/top_level.txt\n'}
+[2.005005] (-) TimerEvent: {}
+[2.025709] (chatting) StdoutLine: {'line': b"reading manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[2.026624] (chatting) StdoutLine: {'line': b"writing manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[2.035926] (chatting) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libchatting__rosidl_generator_py.so\x1b[0m\n'}
+[2.059348] (chatting) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_chatting_egg\n'}
+[2.105139] (-) TimerEvent: {}
+[2.191496] (chatting) StdoutLine: {'line': b'[ 78%] Built target chatting__rosidl_generator_py\n'}
+[2.205414] (-) TimerEvent: {}
+[2.214324] (chatting) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/chatting_s__rosidl_typesupport_c.dir/rosidl_generator_py/chatting/_chatting_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.215536] (chatting) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/chatting_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/chatting/_chatting_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.216872] (chatting) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/chatting_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/chatting/_chatting_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.305561] (-) TimerEvent: {}
+[2.334185] (chatting) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chatting/chatting_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.334467] (chatting) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chatting/chatting_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.356576] (chatting) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.405732] (-) TimerEvent: {}
+[2.426644] (chatting) StdoutLine: {'line': b'[ 94%] Built target chatting_s__rosidl_typesupport_c\n'}
+[2.428669] (chatting) StdoutLine: {'line': b'[ 94%] Built target chatting_s__rosidl_typesupport_introspection_c\n'}
+[2.469589] (chatting) StdoutLine: {'line': b'[ 94%] Built target chatting_s__rosidl_typesupport_fastrtps_c\n'}
+[2.505843] (-) TimerEvent: {}
+[2.606335] (-) TimerEvent: {}
+[2.706865] (-) TimerEvent: {}
+[2.807468] (-) TimerEvent: {}
+[2.907996] (-) TimerEvent: {}
+[3.008574] (-) TimerEvent: {}
+[3.109174] (-) TimerEvent: {}
+[3.209718] (-) TimerEvent: {}
+[3.310273] (-) TimerEvent: {}
+[3.410649] (-) TimerEvent: {}
+[3.511158] (-) TimerEvent: {}
+[3.611651] (-) TimerEvent: {}
+[3.712238] (-) TimerEvent: {}
+[3.812772] (-) TimerEvent: {}
+[3.913357] (-) TimerEvent: {}
+[4.013908] (-) TimerEvent: {}
+[4.114373] (-) TimerEvent: {}
+[4.215046] (-) TimerEvent: {}
+[4.315604] (-) TimerEvent: {}
+[4.416184] (-) TimerEvent: {}
+[4.516725] (-) TimerEvent: {}
+[4.617283] (-) TimerEvent: {}
+[4.717938] (-) TimerEvent: {}
+[4.818442] (-) TimerEvent: {}
+[4.919006] (-) TimerEvent: {}
+[5.019562] (-) TimerEvent: {}
+[5.120092] (-) TimerEvent: {}
+[5.220573] (-) TimerEvent: {}
+[5.321207] (-) TimerEvent: {}
+[5.421750] (-) TimerEvent: {}
+[5.522287] (-) TimerEvent: {}
+[5.622755] (-) TimerEvent: {}
+[5.723427] (-) TimerEvent: {}
+[5.824053] (-) TimerEvent: {}
+[5.924646] (-) TimerEvent: {}
+[6.025364] (-) TimerEvent: {}
+[6.125997] (-) TimerEvent: {}
+[6.226522] (-) TimerEvent: {}
+[6.327192] (-) TimerEvent: {}
+[6.427739] (-) TimerEvent: {}
+[6.528270] (-) TimerEvent: {}
+[6.628856] (-) TimerEvent: {}
+[6.634119] (chatting) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[6.728987] (-) TimerEvent: {}
+[6.829374] (-) TimerEvent: {}
+[6.925615] (chatting) StdoutLine: {'line': b'[ 97%] Built target talker\n'}
+[6.929607] (-) TimerEvent: {}
+[7.029928] (-) TimerEvent: {}
+[7.130356] (-) TimerEvent: {}
+[7.230726] (-) TimerEvent: {}
+[7.331345] (-) TimerEvent: {}
+[7.431846] (-) TimerEvent: {}
+[7.532207] (-) TimerEvent: {}
+[7.632632] (-) TimerEvent: {}
+[7.732972] (-) TimerEvent: {}
+[7.833317] (-) TimerEvent: {}
+[7.933665] (-) TimerEvent: {}
+[8.034076] (-) TimerEvent: {}
+[8.134499] (-) TimerEvent: {}
+[8.234899] (-) TimerEvent: {}
+[8.335290] (-) TimerEvent: {}
+[8.435630] (-) TimerEvent: {}
+[8.536115] (-) TimerEvent: {}
+[8.636685] (-) TimerEvent: {}
+[8.737027] (-) TimerEvent: {}
+[8.837439] (-) TimerEvent: {}
+[8.937803] (-) TimerEvent: {}
+[9.038227] (-) TimerEvent: {}
+[9.138661] (-) TimerEvent: {}
+[9.239038] (-) TimerEvent: {}
+[9.339595] (-) TimerEvent: {}
+[9.440044] (-) TimerEvent: {}
+[9.540413] (-) TimerEvent: {}
+[9.640762] (-) TimerEvent: {}
+[9.741111] (-) TimerEvent: {}
+[9.754692] (chatting) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.841419] (-) TimerEvent: {}
+[9.942114] (-) TimerEvent: {}
+[10.042715] (-) TimerEvent: {}
+[10.143383] (-) TimerEvent: {}
+[10.193087] (chatting) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[10.204165] (chatting) CommandEnded: {'returncode': 0}
+[10.205291] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'install'}
+[10.214290] (chatting) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/julian/workspace/Studium/ros2_ws/build/chatting'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/workspace/Studium/ros2_ws', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6491c9d1-73f0-4b92-bfc0-6e28afda1579.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/23596_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/julian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/julian/.vscode-server/data/User/workspaceStorage/fd716749b24ba678c58173261b235927/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c11441a418.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[10.223962] (chatting) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.224672] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/rosidl_interfaces/chatting\n'}
+[10.225084] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/AddressBook.json\n'}
+[10.225356] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.225575] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.225844] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.226142] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/address_book.h\n'}
+[10.226445] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.226577] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__functions.h\n'}
+[10.226763] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__functions.c\n'}
+[10.226892] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.c\n'}
+[10.227009] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__struct.h\n'}
+[10.227061] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__description.c\n'}
+[10.227109] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.h\n'}
+[10.227156] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/library_path.sh\n'}
+[10.227202] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/library_path.dsv\n'}
+[10.227246] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_c.so\n'}
+[10.227392] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_c.so" to ""\n'}
+[10.227496] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.227661] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.227784] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.227832] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[10.227913] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.228027] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_c.so\n'}
+[10.228224] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.228465] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.228587] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.228716] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/address_book.hpp\n'}
+[10.228917] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.229139] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.229276] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__builder.hpp\n'}
+[10.229392] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__struct.hpp\n'}
+[10.229554] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.hpp\n'}
+[10.229667] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__traits.hpp\n'}
+[10.229799] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.229914] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.230045] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.230155] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/dds_fastrtps\n'}
+[10.230256] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.230440] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.230537] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.230719] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.230913] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.231101] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.231154] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.231274] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.c\n'}
+[10.231327] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[10.231373] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.231416] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_c.so\n'}
+[10.231558] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.231764] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_c.so\n'}
+[10.231820] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_c.so" to ""\n'}
+[10.231867] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting\n'}
+[10.231911] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg\n'}
+[10.232090] (chatting) StdoutLine: {'line': b'-- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail\n'}
+[10.232261] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.cpp\n'}
+[10.232984] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.233374] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_cpp.so\n'}
+[10.234013] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.234234] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_cpp.so\n'}
+[10.234342] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_cpp.so" to ""\n'}
+[10.234574] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/pythonpath.sh\n'}
+[10.234689] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/pythonpath.dsv\n'}
+[10.234790] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info\n'}
+[10.234976] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.235075] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.235173] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.235272] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.235463] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting\n'}
+[10.235574] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.235671] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so\n'}
+[10.235934] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so\n'}
+[10.236075] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.236129] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_c.c\n'}
+[10.236175] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.236220] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/__init__.py\n'}
+[10.236264] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg\n'}
+[10.236306] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_address_book_s.c\n'}
+[10.236349] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_address_book.py\n'}
+[10.236394] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/__init__.py\n'}
+[10.243457] (-) TimerEvent: {}
+[10.279877] (chatting) StdoutLine: {'line': b"Listing '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting'...\n"}
+[10.280045] (chatting) StdoutLine: {'line': b"Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/__init__.py'...\n"}
+[10.280100] (chatting) StdoutLine: {'line': b"Listing '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg'...\n"}
+[10.280149] (chatting) StdoutLine: {'line': b"Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/__init__.py'...\n"}
+[10.280196] (chatting) StdoutLine: {'line': b"Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_address_book.py'...\n"}
+[10.287352] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.287716] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.287977] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so\n'}
+[10.288241] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.288511] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so\n'}
+[10.288643] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so" to ""\n'}
+[10.288849] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_py.so\n'}
+[10.289022] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_py.so" to ""\n'}
+[10.289077] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/AddressBook.idl\n'}
+[10.289122] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/AddressBook.msg\n'}
+[10.289355] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/talker\n'}
+[10.290425] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/talker" to ""\n'}
+[10.290490] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/listener\n'}
+[10.293909] (chatting) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/listener" to ""\n'}
+[10.294276] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/package_run_dependencies/chatting\n'}
+[10.294422] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/parent_prefix_path/chatting\n'}
+[10.294582] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/ament_prefix_path.sh\n'}
+[10.294750] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/ament_prefix_path.dsv\n'}
+[10.294942] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/path.sh\n'}
+[10.295029] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/path.dsv\n'}
+[10.295191] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.bash\n'}
+[10.295289] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.sh\n'}
+[10.295526] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.zsh\n'}
+[10.295636] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.dsv\n'}
+[10.295831] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/package.dsv\n'}
+[10.295931] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/packages/chatting\n'}
+[10.296167] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cExport.cmake\n'}
+[10.296372] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.296460] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.296558] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.296796] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cppExport.cmake\n'}
+[10.296867] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.296933] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.297034] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.297128] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.297374] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cExport.cmake\n'}
+[10.297450] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.297520] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.297928] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.298221] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cppExport.cmake\n'}
+[10.298622] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.299375] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_pyExport.cmake\n'}
+[10.299508] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.299676] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake-extras.cmake\n'}
+[10.299970] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.300194] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.300408] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.300530] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.300651] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.300955] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.301091] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chattingConfig.cmake\n'}
+[10.301204] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chattingConfig-version.cmake\n'}
+[10.301345] (chatting) StdoutLine: {'line': b'-- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/package.xml\n'}
+[10.302939] (chatting) CommandEnded: {'returncode': 0}
+[10.322917] (chatting) JobEnded: {'identifier': 'chatting', 'rc': 0}
+[10.324574] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating build/test_controller/test_controller.egg-info
+writing build/test_controller/test_controller.egg-info/PKG-INFO
+writing dependency_links to build/test_controller/test_controller.egg-info/dependency_links.txt
+writing entry points to build/test_controller/test_controller.egg-info/entry_points.txt
+writing requirements to build/test_controller/test_controller.egg-info/requires.txt
+writing top-level names to build/test_controller/test_controller.egg-info/top_level.txt
+writing manifest file 'build/test_controller/test_controller.egg-info/SOURCES.txt'
+reading manifest file 'build/test_controller/test_controller.egg-info/SOURCES.txt'
+writing manifest file 'build/test_controller/test_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib/test_controller
+copying test_controller/first_node.py -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib/test_controller
+copying test_controller/__init__.py -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib/test_controller
+running install
+running install_lib
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller
+copying /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib/test_controller/first_node.py -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller
+copying /home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/build/lib/test_controller/__init__.py -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller
+byte-compiling /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller/first_node.py to first_node.cpython-312.pyc
+byte-compiling /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/share/ament_index
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/share/ament_index/resource_index
+creating /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/share/ament_index/resource_index/packages
+copying resource/test_controller -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/share/test_controller
+running install_egg_info
+Copying build/test_controller/test_controller.egg-info to /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/python3.12/site-packages/test_controller-0.0.0-py3.12.egg-info
+running install_scripts
+Installing test_node script to /home/julian/workspace/Studium/ros2_ws/src/test_controller/install/test_controller/lib/test_controller
+writing list of installed files to '/home/julian/workspace/Studium/ros2_ws/src/test_controller/build/test_controller/install.log'

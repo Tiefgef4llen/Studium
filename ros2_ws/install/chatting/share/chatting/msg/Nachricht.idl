@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from chatting/msg/Nachricht.msg
+// generated code does not contain a copyright notice
+
+
+module chatting {
+  module msg {
+    struct Nachricht {
+      string user;
+
+      string text;
+    };
+  };
+};

@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.001109] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001209] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001231] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001243] (-) JobUnselected: {'identifier': 'test_controller'}
+[0.001256] (chatting) JobQueued: {'identifier': 'chatting', 'dependencies': OrderedDict()}
+[0.001272] (chatting) JobStarted: {'identifier': 'chatting'}
+[0.010600] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'cmake'}
+[0.012648] (chatting) Command: {'cmd': ['/usr/bin/cmake', '/home/julian/workspace/Studium/ros2_ws/src/chatting', '-DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/install/chatting'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/workspace/Studium/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'JuliSP9', 'WSL_INTEROP': '/run/WSL/394_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': ''}), 'shell': False}
+[0.099326] (-) TimerEvent: {}
+[0.195507] (chatting) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199502] (-) TimerEvent: {}
+[0.299923] (-) TimerEvent: {}
+[0.400345] (-) TimerEvent: {}
+[0.500669] (-) TimerEvent: {}
+[0.502585] (chatting) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.600782] (-) TimerEvent: {}
+[0.701149] (-) TimerEvent: {}
+[0.704400] (chatting) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.801547] (-) TimerEvent: {}
+[0.901940] (-) TimerEvent: {}
+[0.913511] (chatting) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.921254] (chatting) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.921469] (chatting) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.921817] (chatting) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.958443] (chatting) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002065] (-) TimerEvent: {}
+[1.102433] (-) TimerEvent: {}
+[1.202777] (-) TimerEvent: {}
+[1.213270] (chatting) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.222080] (chatting) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.222481] (chatting) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.222788] (chatting) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.225554] (chatting) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[1.303013] (-) TimerEvent: {}
+[1.368349] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.403139] (-) TimerEvent: {}
+[1.474901] (chatting) StdoutLine: {'line': b'-- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[1.503331] (-) TimerEvent: {}
+[1.603700] (-) TimerEvent: {}
+[1.658104] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[1.669072] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[1.681729] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.700464] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.703886] (-) TimerEvent: {}
+[1.766753] (chatting) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[1.769009] (chatting) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.804070] (-) TimerEvent: {}
+[1.832371] (chatting) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.843063] (chatting) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.904187] (-) TimerEvent: {}
+[1.950726] (chatting) StdoutLine: {'line': b'-- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[1.963743] (chatting) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[1.975796] (chatting) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[2.005321] (-) TimerEvent: {}
+[2.105735] (-) TimerEvent: {}
+[2.206189] (-) TimerEvent: {}
+[2.306560] (-) TimerEvent: {}
+[2.406958] (-) TimerEvent: {}
+[2.507262] (-) TimerEvent: {}
+[2.534073] (chatting) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[2.607443] (-) TimerEvent: {}
+[2.707752] (-) TimerEvent: {}
+[2.808086] (-) TimerEvent: {}
+[2.908467] (-) TimerEvent: {}
+[3.008859] (-) TimerEvent: {}
+[3.109179] (-) TimerEvent: {}
+[3.190346] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.209298] (-) TimerEvent: {}
+[3.309668] (-) TimerEvent: {}
+[3.410117] (-) TimerEvent: {}
+[3.451173] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.510249] (-) TimerEvent: {}
+[3.610553] (-) TimerEvent: {}
+[3.710990] (-) TimerEvent: {}
+[3.811294] (-) TimerEvent: {}
+[3.862257] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.897618] (chatting) StdoutLine: {'line': b'-- Configuring done (3.9s)\n'}
+[3.911426] (-) TimerEvent: {}
+[3.941770] (chatting) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.953932] (chatting) StdoutLine: {'line': b'-- Build files have been written to: /home/julian/workspace/Studium/ros2_ws/build/chatting\n'}
+[3.965002] (chatting) CommandEnded: {'returncode': 0}
+[3.965720] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'build'}
+[3.966617] (chatting) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/julian/workspace/Studium/ros2_ws/build/chatting', '--', '-j12', '-l12'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'OLDPWD': '/home/julian/workspace/Studium/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'JuliSP9', 'WSL_INTEROP': '/run/WSL/394_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/julian/workspace/Studium/ros2_ws/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': ''}), 'shell': False}
+[4.011631] (-) TimerEvent: {}
+[4.012120] (chatting) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[4.013126] (chatting) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.020296] (chatting) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[4.027253] (chatting) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_chatting\n'}
+[4.111829] (-) TimerEvent: {}
+[4.212248] (-) TimerEvent: {}
+[4.233906] (chatting) StdoutLine: {'line': b'running egg_info\n'}
+[4.235358] (chatting) StdoutLine: {'line': b'creating chatting.egg-info\n'}
+[4.251036] (chatting) StdoutLine: {'line': b'writing chatting.egg-info/PKG-INFO\n'}
+[4.251349] (chatting) StdoutLine: {'line': b'writing dependency_links to chatting.egg-info/dependency_links.txt\n'}
+[4.251610] (chatting) StdoutLine: {'line': b'writing top-level names to chatting.egg-info/top_level.txt\n'}
+[4.251791] (chatting) StdoutLine: {'line': b"writing manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[4.264760] (chatting) StdoutLine: {'line': b'[  7%] Built target chatting__rosidl_generator_type_description\n'}
+[4.270006] (chatting) StderrLine: {'line': b'\x1b[01m\x1b[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kchatting/msg/address_book.hpp: No such file or directory\n'}
+[4.270434] (chatting) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"chatting/msg/address_book.hpp"\x1b[m\x1b[K\n'}
+[4.270569] (chatting) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.270677] (chatting) StderrLine: {'line': b'compilation terminated.\n'}
+[4.273546] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1\n'}
+[4.274089] (chatting) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/talker.dir/all] Error 2\n'}
+[4.274223] (chatting) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.279638] (chatting) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.288040] (chatting) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.312187] (chatting) StdoutLine: {'line': b"reading manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[4.312448] (-) TimerEvent: {}
+[4.312937] (chatting) StdoutLine: {'line': b"writing manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[4.355176] (chatting) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_build_chatting_egg\n'}
+[4.412607] (-) TimerEvent: {}
+[4.513057] (-) TimerEvent: {}
+[4.537313] (chatting) StdoutLine: {'line': b'[ 13%] Built target chatting__cpp\n'}
+[4.585358] (chatting) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[4.587797] (chatting) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__description.c.o\x1b[0m\n'}
+[4.588525] (chatting) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[4.606841] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/chatting__rosidl_generator_c.dir/build.make:145: CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__type_support.c.o] Interrupt\n'}
+[4.607439] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Interrupt\n'}
+[4.607595] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/chatting__rosidl_generator_c.dir/build.make:117: CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__description.c.o] Interrupt\n'}
+[4.607735] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/chatting__rosidl_generator_c.dir/build.make:131: CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__functions.c.o] Interrupt\n'}
+[4.607849] (chatting) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/listener.dir/all] Interrupt\n'}
+[4.607965] (chatting) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:245: CMakeFiles/chatting__rosidl_generator_c.dir/all] Interrupt\n'}
+[4.608071] (chatting) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[4.611841] (chatting) CommandEnded: {'returncode': -2}
+[4.613258] (-) TimerEvent: {}
+[4.620263] (chatting) JobEnded: {'identifier': 'chatting', 'rc': 'SIGINT'}
+[4.630751] (-) EventReactorShutdown: {}

@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (chatting) JobQueued: {'identifier': 'chatting', 'dependencies': OrderedDict()}
+[0.000566] (chatting) JobStarted: {'identifier': 'chatting'}
+[0.008182] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'cmake'}
+[0.010180] (chatting) Command: {'cmd': ['/usr/bin/cmake', '/home/julian/workspace/Studium/ros2_ws/src/chatting', '-DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/src/chatting/install/chatting'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6491c9d1-73f0-4b92-bfc0-6e28afda1579.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/23596_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/julian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/julian/.vscode-server/data/User/workspaceStorage/fd716749b24ba678c58173261b235927/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c11441a418.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[0.099528] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.222377] (chatting) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300330] (-) TimerEvent: {}
+[0.400798] (-) TimerEvent: {}
+[0.501377] (-) TimerEvent: {}
+[0.601977] (-) TimerEvent: {}
+[0.702532] (-) TimerEvent: {}
+[0.803033] (-) TimerEvent: {}
+[0.903437] (-) TimerEvent: {}
+[0.957498] (chatting) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.003600] (-) TimerEvent: {}
+[1.104044] (-) TimerEvent: {}
+[1.204777] (-) TimerEvent: {}
+[1.305353] (-) TimerEvent: {}
+[1.405766] (-) TimerEvent: {}
+[1.506277] (-) TimerEvent: {}
+[1.606754] (-) TimerEvent: {}
+[1.707321] (-) TimerEvent: {}
+[1.807857] (-) TimerEvent: {}
+[1.849895] (chatting) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.908039] (-) TimerEvent: {}
+[2.008616] (-) TimerEvent: {}
+[2.108968] (-) TimerEvent: {}
+[2.209399] (-) TimerEvent: {}
+[2.224786] (chatting) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.234101] (chatting) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.241307] (chatting) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.241795] (chatting) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.309553] (-) TimerEvent: {}
+[2.345699] (chatting) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.409693] (-) TimerEvent: {}
+[2.510080] (-) TimerEvent: {}
+[2.610425] (-) TimerEvent: {}
+[2.665066] (chatting) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.677534] (chatting) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.678705] (chatting) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.679406] (chatting) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.682551] (chatting) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[2.710539] (-) TimerEvent: {}
+[2.811106] (-) TimerEvent: {}
+[2.843417] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.911416] (-) TimerEvent: {}
+[2.961571] (chatting) StdoutLine: {'line': b'-- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[3.011674] (-) TimerEvent: {}
+[3.112095] (-) TimerEvent: {}
+[3.212542] (-) TimerEvent: {}
+[3.245983] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[3.257260] (chatting) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[3.272072] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.293952] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.312794] (-) TimerEvent: {}
+[3.371247] (chatting) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[3.374929] (chatting) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.412909] (-) TimerEvent: {}
+[3.472247] (chatting) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.484057] (chatting) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.513127] (-) TimerEvent: {}
+[3.613482] (-) TimerEvent: {}
+[3.713800] (-) TimerEvent: {}
+[3.733269] (chatting) StdoutLine: {'line': b'-- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)\n'}
+[3.754510] (chatting) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/kilted/share/rosidl_default_generators/cmake)\n'}
+[3.767021] (chatting) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.9.5 (/opt/ros/kilted/share/rosidl_adapter/cmake)\n'}
+[3.814480] (-) TimerEvent: {}
+[3.914837] (-) TimerEvent: {}
+[4.015188] (-) TimerEvent: {}
+[4.115511] (-) TimerEvent: {}
+[4.215949] (-) TimerEvent: {}
+[4.316284] (-) TimerEvent: {}
+[4.399743] (chatting) StdoutLine: {'line': b'-- Found ament_cmake_ros_core: 0.14.3 (/opt/ros/kilted/share/ament_cmake_ros_core/cmake)\n'}
+[4.416581] (-) TimerEvent: {}
+[4.517180] (-) TimerEvent: {}
+[4.617615] (-) TimerEvent: {}
+[4.718191] (-) TimerEvent: {}
+[4.818817] (-) TimerEvent: {}
+[4.919220] (-) TimerEvent: {}
+[5.019619] (-) TimerEvent: {}
+[5.119951] (-) TimerEvent: {}
+[5.128463] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.220081] (-) TimerEvent: {}
+[5.320437] (-) TimerEvent: {}
+[5.416977] (chatting) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.420489] (-) TimerEvent: {}
+[5.520886] (-) TimerEvent: {}
+[5.621381] (-) TimerEvent: {}
+[5.721824] (-) TimerEvent: {}
+[5.822245] (-) TimerEvent: {}
+[5.900352] (chatting) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.922358] (-) TimerEvent: {}
+[5.940081] (chatting) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[6.001643] (chatting) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.021520] (chatting) StdoutLine: {'line': b'-- Build files have been written to: /home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting\n'}
+[6.022458] (-) TimerEvent: {}
+[6.035634] (chatting) CommandEnded: {'returncode': 0}
+[6.037686] (chatting) JobProgress: {'identifier': 'chatting', 'progress': 'build'}
+[6.037746] (chatting) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting', '--', '-j12', '-l12'], 'cwd': '/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'julian', 'GZ_CONFIG_PATH': '/opt/ros/kilted/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/sdformat_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_tools_vendor/lib:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/julian', 'TERM_PROGRAM_VERSION': '1.105.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6491c9d1-73f0-4b92-bfc0-6e28afda1579.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'julian', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/23596_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/julian/.vscode-server/bin/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/bin/remote-cli:/opt/ros/kilted/opt/gz_tools_vendor/bin:/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Qt/6.9.0/mingw_64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Users/julia/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/julia/AppData/Local/Microsoft/WindowsApps:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/julia/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/julian/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/julian/.vscode-server/data/User/workspaceStorage/fd716749b24ba678c58173261b235927/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-c11441a418.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/julian/workspace/Studium/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/julian/workspace/Studium/ros2_ws/install/test_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/julian/workspace/Studium/ros2_ws/install/more_interfaces:/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub:/opt/ros/kilted/opt/sdformat_vendor:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_tools_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}), 'shell': False}
+[6.086648] (chatting) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[6.087074] (chatting) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.089393] (chatting) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[6.094272] (chatting) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_chatting\n'}
+[6.122652] (-) TimerEvent: {}
+[6.223160] (-) TimerEvent: {}
+[6.323647] (-) TimerEvent: {}
+[6.331452] (chatting) StderrLine: {'line': b'\x1b[01m\x1b[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:5:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kchatting/msg/address_book.hpp: No such file or directory\n'}
+[6.331812] (chatting) StderrLine: {'line': b'    5 | #include \x1b[01;31m\x1b[K"chatting/msg/address_book.hpp"\x1b[m\x1b[K\n'}
+[6.331974] (chatting) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.332107] (chatting) StderrLine: {'line': b'compilation terminated.\n'}
+[6.334955] (chatting) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1\n'}
+[6.335569] (chatting) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/talker.dir/all] Error 2\n'}
+[6.335810] (chatting) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.337208] (chatting) StdoutLine: {'line': b'[  7%] Built target chatting__rosidl_generator_type_description\n'}
+[6.376844] (chatting) StdoutLine: {'line': b'running egg_info\n'}
+[6.378341] (chatting) StdoutLine: {'line': b'creating chatting.egg-info\n'}
+[6.397432] (chatting) StdoutLine: {'line': b'writing chatting.egg-info/PKG-INFO\n'}
+[6.397957] (chatting) StdoutLine: {'line': b'writing dependency_links to chatting.egg-info/dependency_links.txt\n'}
+[6.398166] (chatting) StdoutLine: {'line': b'writing top-level names to chatting.egg-info/top_level.txt\n'}
+[6.398310] (chatting) StdoutLine: {'line': b"writing manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[6.423729] (-) TimerEvent: {}
+[6.467049] (chatting) StdoutLine: {'line': b"reading manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[6.467823] (chatting) StdoutLine: {'line': b"writing manifest file 'chatting.egg-info/SOURCES.txt'\n"}
+[6.499115] (chatting) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_chatting_egg\n'}
+[6.523993] (-) TimerEvent: {}
+[6.624747] (-) TimerEvent: {}
+[6.725245] (-) TimerEvent: {}
+[6.825694] (-) TimerEvent: {}
+[6.926428] (-) TimerEvent: {}
+[7.026991] (-) TimerEvent: {}
+[7.127561] (-) TimerEvent: {}
+[7.228029] (-) TimerEvent: {}
+[7.328547] (-) TimerEvent: {}
+[7.429059] (-) TimerEvent: {}
+[7.529514] (-) TimerEvent: {}
+[7.630027] (-) TimerEvent: {}
+[7.730573] (-) TimerEvent: {}
+[7.831221] (-) TimerEvent: {}
+[7.931606] (-) TimerEvent: {}
+[8.032062] (-) TimerEvent: {}
+[8.132486] (-) TimerEvent: {}
+[8.233164] (-) TimerEvent: {}
+[8.333657] (-) TimerEvent: {}
+[8.434196] (-) TimerEvent: {}
+[8.534829] (-) TimerEvent: {}
+[8.635245] (-) TimerEvent: {}
+[8.735733] (-) TimerEvent: {}
+[8.836166] (-) TimerEvent: {}
+[8.936798] (-) TimerEvent: {}
+[9.037269] (-) TimerEvent: {}
+[9.137688] (-) TimerEvent: {}
+[9.238095] (-) TimerEvent: {}
+[9.338542] (-) TimerEvent: {}
+[9.438969] (-) TimerEvent: {}
+[9.539676] (-) TimerEvent: {}
+[9.640293] (-) TimerEvent: {}
+[9.740846] (-) TimerEvent: {}
+[9.841218] (-) TimerEvent: {}
+[9.941719] (-) TimerEvent: {}
+[10.042251] (-) TimerEvent: {}
+[10.142802] (-) TimerEvent: {}
+[10.243201] (-) TimerEvent: {}
+[10.343552] (-) TimerEvent: {}
+[10.444002] (-) TimerEvent: {}
+[10.544520] (-) TimerEvent: {}
+[10.644914] (-) TimerEvent: {}
+[10.745260] (-) TimerEvent: {}
+[10.845703] (-) TimerEvent: {}
+[10.946188] (-) TimerEvent: {}
+[11.046583] (-) TimerEvent: {}
+[11.147097] (-) TimerEvent: {}
+[11.247642] (-) TimerEvent: {}
+[11.348009] (-) TimerEvent: {}
+[11.448479] (-) TimerEvent: {}
+[11.548987] (-) TimerEvent: {}
+[11.649378] (-) TimerEvent: {}
+[11.749756] (-) TimerEvent: {}
+[11.850125] (-) TimerEvent: {}
+[11.950523] (-) TimerEvent: {}
+[12.051012] (-) TimerEvent: {}
+[12.151419] (-) TimerEvent: {}
+[12.251757] (-) TimerEvent: {}
+[12.352139] (-) TimerEvent: {}
+[12.452562] (-) TimerEvent: {}
+[12.553395] (-) TimerEvent: {}
+[12.654001] (-) TimerEvent: {}
+[12.754560] (-) TimerEvent: {}
+[12.854942] (-) TimerEvent: {}
+[12.955335] (-) TimerEvent: {}
+[13.055722] (-) TimerEvent: {}
+[13.156102] (-) TimerEvent: {}
+[13.256511] (-) TimerEvent: {}
+[13.356964] (-) TimerEvent: {}
+[13.457363] (-) TimerEvent: {}
+[13.557786] (-) TimerEvent: {}
+[13.658393] (-) TimerEvent: {}
+[13.758947] (-) TimerEvent: {}
+[13.859368] (-) TimerEvent: {}
+[13.960167] (-) TimerEvent: {}
+[14.060770] (chatting) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[14.061179] (-) TimerEvent: {}
+[14.161572] (-) TimerEvent: {}
+[14.261930] (-) TimerEvent: {}
+[14.362469] (-) TimerEvent: {}
+[14.435460] (chatting) StdoutLine: {'line': b'[ 10%] Built target listener\n'}
+[14.436611] (chatting) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[14.438987] (chatting) CommandEnded: {'returncode': 2}
+[14.448041] (chatting) JobEnded: {'identifier': 'chatting', 'rc': 2}
+[14.459257] (-) EventReactorShutdown: {}

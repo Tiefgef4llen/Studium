@@ -1,0 +1,6 @@
+{
+  "package_name": "chatting",
+  "non_idl_tuples": [
+    "/home/julian/workspace/Studium/ros2_ws/src/chatting:msg/Nachricht.msg"
+  ]
+}

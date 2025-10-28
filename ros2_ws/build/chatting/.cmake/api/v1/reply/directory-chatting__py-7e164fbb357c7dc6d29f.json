@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "chatting__py",
+		"source" : "/home/julian/workspace/Studium/ros2_ws/build/chatting/chatting__py"
+	}
+}

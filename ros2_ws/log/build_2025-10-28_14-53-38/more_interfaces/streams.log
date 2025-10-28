@@ -1,0 +1,42 @@
+[0.024s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake /home/julian/workspace/Studium/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/install/more_interfaces
+[0.348s] -- The C compiler identification is GNU 13.3.0
+[0.557s] -- The CXX compiler identification is GNU 13.3.0
+[0.871s] -- Detecting C compiler ABI info
+[1.156s] -- Detecting C compiler ABI info - done
+[1.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.166s] -- Detecting C compile features
+[1.166s] -- Detecting C compile features - done
+[1.226s] -- Detecting CXX compiler ABI info
+[1.536s] -- Detecting CXX compiler ABI info - done
+[1.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.547s] -- Detecting CXX compile features
+[1.547s] -- Detecting CXX compile features - done
+[1.549s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.856s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[2.028s] -- Added test 'lint_cmake' to check CMake code style
+[2.032s] -- Added test 'xmllint' to check XML markup files
+[2.035s] -- Configuring done (2.0s)
+[2.038s] -- Generating done (0.0s)
+[2.040s] -- Build files have been written to: /home/julian/workspace/Studium/ros2_ws/build/more_interfaces
+[2.048s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake /home/julian/workspace/Studium/ros2_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/install/more_interfaces
+[2.050s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/more_interfaces -- -j12 -l12
+[2.107s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/more_interfaces -- -j12 -l12
+[2.122s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --install /home/julian/workspace/Studium/ros2_ws/build/more_interfaces
+[2.129s] -- Install configuration: ""
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[2.132s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[2.133s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[2.133s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[2.134s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[2.134s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[2.134s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[2.135s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[2.135s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[2.138s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --install /home/julian/workspace/Studium/ros2_ws/build/more_interfaces

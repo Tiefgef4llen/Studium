@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chatting/msg/AddressBook",
+      "fields": [
+        {
+          "name": "user",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "text",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "chatting/msg/AddressBook",
+      "hash_string": "RIHS01_abcbf8b253eff6f959221685a5e5585f7d1ab9a708829401bf7823d4e5c0d8c1"
+    }
+  ]
+}

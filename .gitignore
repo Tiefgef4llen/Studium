@@ -1,1 +1,4 @@
 /ros2_ws/src/.vscode
+.vscode/browse.vc.db
+
+**/.vscode/*.db

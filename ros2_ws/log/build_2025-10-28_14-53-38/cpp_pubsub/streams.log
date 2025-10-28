@@ -1,0 +1,36 @@
+[0.026s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake /home/julian/workspace/Studium/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub
+[0.351s] -- The C compiler identification is GNU 13.3.0
+[0.659s] -- The CXX compiler identification is GNU 13.3.0
+[1.152s] -- Detecting C compiler ABI info
+[1.409s] -- Detecting C compiler ABI info - done
+[1.421s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.422s] -- Detecting C compile features
+[1.422s] -- Detecting C compile features - done
+[1.503s] -- Detecting CXX compiler ABI info
+[1.787s] -- Detecting CXX compiler ABI info - done
+[1.803s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.804s] -- Detecting CXX compile features
+[1.805s] -- Detecting CXX compile features - done
+[1.809s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[2.001s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.155s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[2.351s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[2.363s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[2.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.477s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[2.480s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[2.561s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.810s] -- Found std_msgs: 5.5.1 (/opt/ros/kilted/share/std_msgs/cmake)
+[2.904s] -- Configuring done (2.9s)
+[2.921s] -- Generating done (0.0s)
+[2.925s] -- Build files have been written to: /home/julian/workspace/Studium/ros2_ws/build/cpp_pubsub
+[2.934s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake /home/julian/workspace/Studium/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/julian/workspace/Studium/ros2_ws/install/cpp_pubsub
+[2.936s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/cpp_pubsub -- -j12 -l12
+[2.982s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[2.984s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[8.216s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[8.501s] [ 75%] Built target talker
+[11.357s] [100%] [32m[1mLinking CXX executable listener[0m
+[11.756s] [100%] Built target listener

@@ -1,0 +1,191 @@
+[0.035s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/chatting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/chatting -- -j12 -l12
+[0.398s] [  2%] Built target chatting__rosidl_generator_type_description
+[0.399s] [  2%] Built target ament_cmake_python_copy_chatting
+[0.402s] [ 13%] Built target chatting__cpp
+[0.403s] [ 18%] Built target chatting__rosidl_generator_c
+[0.403s] [ 26%] Built target chatting__rosidl_typesupport_c
+[0.403s] [ 34%] Built target chatting__rosidl_typesupport_cpp
+[0.404s] [ 42%] Built target chatting__rosidl_typesupport_fastrtps_cpp
+[0.404s] [ 50%] Built target chatting__rosidl_typesupport_introspection_c
+[0.404s] [ 57%] Built target chatting__rosidl_typesupport_fastrtps_c
+[0.405s] [ 65%] Built target chatting__rosidl_typesupport_introspection_cpp
+[0.405s] [ 65%] Built target chatting
+[0.405s] [ 68%] Built target chatting__py
+[0.406s] [ 71%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.407s] [ 73%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[0.408s] [ 78%] Built target chatting__rosidl_generator_py
+[0.408s] [ 86%] Built target chatting_s__rosidl_typesupport_fastrtps_c
+[0.408s] [ 89%] Built target chatting_s__rosidl_typesupport_introspection_c
+[0.409s] [ 94%] Built target chatting_s__rosidl_typesupport_c
+[0.460s] running egg_info
+[0.498s] writing chatting.egg-info/PKG-INFO
+[0.498s] writing dependency_links to chatting.egg-info/dependency_links.txt
+[0.499s] writing top-level names to chatting.egg-info/top_level.txt
+[0.596s] reading manifest file 'chatting.egg-info/SOURCES.txt'
+[0.596s] writing manifest file 'chatting.egg-info/SOURCES.txt'
+[0.649s] [ 94%] Built target ament_cmake_python_build_chatting_egg
+[6.142s] [ 97%] [32m[1mLinking CXX executable talker[0m
+[6.407s] [ 97%] Built target talker
+[9.136s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.386s] [100%] Built target listener
+[9.397s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/chatting' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/chatting -- -j12 -l12
+[9.397s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/chatting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --install /home/julian/workspace/Studium/ros2_ws/build/chatting
+[9.404s] -- Install configuration: ""
+[9.404s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/rosidl_interfaces/chatting
+[9.404s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/Nachricht.json
+[9.404s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.405s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.405s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_generator_c__visibility_control.h
+[9.405s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/address_book.h
+[9.405s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.405s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__functions.c
+[9.405s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__functions.h
+[9.405s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__type_support.h
+[9.405s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__struct.h
+[9.406s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__type_support.c
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__functions.c
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.c
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__struct.h
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__description.c
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.h
+[9.406s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__description.c
+[9.406s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__functions.h
+[9.406s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/nachricht.h
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/library_path.sh
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/library_path.dsv
+[9.406s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_c.so
+[9.406s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_c.so" to ""
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.406s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.407s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.407s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[9.407s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__rosidl_typesupport_fastrtps_c.h
+[9.407s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.407s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_c.so
+[9.408s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_c.so" to ""
+[9.408s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.408s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.408s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/address_book.hpp
+[9.408s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/nachricht.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__builder.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__struct.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.hpp
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__builder.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__traits.hpp
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__struct.hpp
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__traits.hpp
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__type_support.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.409s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__rosidl_typesupport_fastrtps_cpp.hpp
+[9.409s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/dds_fastrtps
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.410s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_cpp.so
+[9.410s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__type_support.c
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.c
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[9.410s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__rosidl_typesupport_introspection_c.h
+[9.410s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.410s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_c.so
+[9.410s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_c.so" to ""
+[9.411s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_c.so
+[9.411s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_c.so" to ""
+[9.411s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting
+[9.411s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg
+[9.411s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail
+[9.411s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__type_support.cpp
+[9.411s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/nachricht__rosidl_typesupport_introspection_cpp.hpp
+[9.411s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__type_support.cpp
+[9.411s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/include/chatting/chatting/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[9.411s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_cpp.so
+[9.411s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_introspection_cpp.so" to ""
+[9.411s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_cpp.so
+[9.412s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_typesupport_cpp.so" to ""
+[9.412s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/pythonpath.sh
+[9.412s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/pythonpath.dsv
+[9.412s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/top_level.txt
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting-0.0.0-py3.12.egg-info/PKG-INFO
+[9.412s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_introspection_c.c
+[9.412s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_c.c
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/_chatting_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/__init__.py
+[9.413s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_nachricht.py
+[9.413s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_address_book_s.c
+[9.413s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_nachricht_s.c
+[9.413s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_address_book.py
+[9.414s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/__init__.py
+[9.450s] Listing '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting'...
+[9.450s] Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/__init__.py'...
+[9.450s] Listing '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg'...
+[9.450s] Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/__init__.py'...
+[9.450s] Compiling '/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/msg/_nachricht.py'...
+[9.456s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so
+[9.457s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.457s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so
+[9.458s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_introspection_c.so" to ""
+[9.458s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so
+[9.458s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/python3.12/site-packages/chatting/chatting_s__rosidl_typesupport_c.so" to ""
+[9.458s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_py.so
+[9.459s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/libchatting__rosidl_generator_py.so" to ""
+[9.459s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/Nachricht.idl
+[9.459s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/msg/Nachricht.msg
+[9.459s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/talker
+[9.461s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/talker" to ""
+[9.461s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/listener
+[9.470s] -- Set non-toolchain portion of runtime path of "/home/julian/workspace/Studium/ros2_ws/install/chatting/lib/chatting/listener" to ""
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/package_run_dependencies/chatting
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/parent_prefix_path/chatting
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/ament_prefix_path.sh
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/ament_prefix_path.dsv
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/path.sh
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/environment/path.dsv
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.bash
+[9.470s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.sh
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.zsh
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/local_setup.dsv
+[9.471s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/package.dsv
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/ament_index/resource_index/packages/chatting
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cExport.cmake
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cExport-noconfig.cmake
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cExport.cmake
+[9.471s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.472s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_cppExport.cmake
+[9.472s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.472s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.472s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cExport.cmake
+[9.472s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cExport.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cExport-noconfig.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cppExport.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cppExport.cmake
+[9.473s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chatting__rosidl_typesupport_cppExport-noconfig.cmake
+[9.474s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_pyExport.cmake
+[9.474s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/export_chatting__rosidl_generator_pyExport-noconfig.cmake
+[9.474s] -- Installing: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake-extras.cmake
+[9.474s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.474s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_libraries-extras.cmake
+[9.474s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_targets-extras.cmake
+[9.475s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.475s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.475s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.475s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chattingConfig.cmake
+[9.476s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/cmake/chattingConfig-version.cmake
+[9.476s] -- Up-to-date: /home/julian/workspace/Studium/ros2_ws/install/chatting/share/chatting/package.xml
+[9.476s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/chatting' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --install /home/julian/workspace/Studium/ros2_ws/build/chatting

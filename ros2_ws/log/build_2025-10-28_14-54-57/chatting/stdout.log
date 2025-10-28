@@ -1,0 +1,22 @@
+[  2%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[  5%] Built target chatting__rosidl_generator_type_description
+[ 10%] Built target listener
+[ 10%] Built target ament_cmake_python_copy_chatting
+[ 13%] Built target chatting__cpp
+[ 26%] Built target chatting__rosidl_generator_c
+[ 44%] Built target chatting__rosidl_typesupport_introspection_c
+[ 44%] Built target chatting__rosidl_typesupport_cpp
+[ 52%] Built target chatting__rosidl_typesupport_fastrtps_c
+[ 57%] Built target chatting__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target chatting__rosidl_typesupport_c
+[ 73%] Built target chatting__rosidl_typesupport_introspection_cpp
+[ 73%] Built target chatting
+[ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+running egg_info
+writing chatting.egg-info/PKG-INFO
+writing dependency_links to chatting.egg-info/dependency_links.txt
+writing top-level names to chatting.egg-info/top_level.txt
+reading manifest file 'chatting.egg-info/SOURCES.txt'
+writing manifest file 'chatting.egg-info/SOURCES.txt'
+[ 76%] Built target ament_cmake_python_build_chatting_egg
+[ 76%] Built target chatting__py

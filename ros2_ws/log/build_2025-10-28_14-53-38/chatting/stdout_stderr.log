@@ -1,0 +1,51 @@
+[  2%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[  7%] Built target chatting__rosidl_generator_type_description
+[  7%] Built target ament_cmake_python_copy_chatting
+[ 10%] [32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/chatting__rosidl_generator_c.dir/rosidl_generator_c/chatting/msg/detail/address_book__functions.c.o[0m
+[ 18%] Built target chatting__cpp
+[ 21%] [32m[1mLinking C shared library libchatting__rosidl_generator_c.so[0m
+[ 23%] Built target chatting__rosidl_generator_c
+[ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 39%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kchatting/msg/address_book.hpp: No such file or directory
+    5 | #include [01;31m[K"chatting/msg/address_book.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing chatting.egg-info/PKG-INFO
+writing dependency_links to chatting.egg-info/dependency_links.txt
+writing top-level names to chatting.egg-info/top_level.txt
+reading manifest file 'chatting.egg-info/SOURCES.txt'
+writing manifest file 'chatting.egg-info/SOURCES.txt'
+[ 39%] Built target ament_cmake_python_build_chatting_egg
+[ 42%] [32mBuilding CXX object CMakeFiles/chatting__rosidl_typesupport_c.dir/rosidl_typesupport_c/chatting/msg/address_book__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/chatting__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chatting/msg/detail/address_book__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/chatting__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chatting/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/chatting__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chatting/msg/detail/address_book__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/chatting__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chatting/msg/detail/address_book__type_support_c.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libchatting__rosidl_typesupport_c.so[0m
+[ 57%] [32m[1mLinking C shared library libchatting__rosidl_typesupport_introspection_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/chatting__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chatting/msg/address_book__type_support.cpp.o[0m
+[ 60%] Built target chatting__rosidl_typesupport_c
+[ 60%] Built target chatting__rosidl_typesupport_introspection_c
+[ 63%] [32m[1mLinking CXX shared library libchatting__rosidl_typesupport_introspection_cpp.so[0m
+[ 65%] [32m[1mLinking CXX shared library libchatting__rosidl_typesupport_cpp.so[0m
+[ 65%] Built target chatting__rosidl_typesupport_introspection_cpp
+[ 65%] Built target chatting__rosidl_typesupport_cpp
+[ 68%] [32m[1mLinking CXX shared library libchatting__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 71%] [32m[1mLinking CXX shared library libchatting__rosidl_typesupport_fastrtps_c.so[0m
+[ 71%] Built target chatting__rosidl_typesupport_fastrtps_cpp
+[ 71%] Built target chatting__rosidl_typesupport_fastrtps_c
+[ 73%] [32m[1mLinking CXX executable listener[0m
+[ 73%] Built target listener
+gmake: *** [Makefile:146: all] Error 2

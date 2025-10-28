@@ -1,0 +1,9 @@
+setup.py
+chatting/__init__.py
+chatting.egg-info/PKG-INFO
+chatting.egg-info/SOURCES.txt
+chatting.egg-info/dependency_links.txt
+chatting.egg-info/top_level.txt
+chatting/msg/__init__.py
+chatting/msg/_address_book.py
+chatting/msg/_nachricht.py

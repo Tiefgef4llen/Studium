@@ -1,0 +1,233 @@
+[  2%] Built target chatting__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_copy_chatting
+[ 15%] Built target chatting__rosidl_generator_c
+[ 18%] Built target chatting__cpp
+[ 26%] Built target chatting__rosidl_typesupport_introspection_c
+[ 36%] Built target chatting__rosidl_typesupport_fastrtps_c
+[ 42%] Built target chatting__rosidl_typesupport_cpp
+[ 50%] Built target chatting__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target chatting__rosidl_typesupport_c
+[ 65%] Built target chatting__rosidl_typesupport_introspection_cpp
+[ 65%] Built target chatting
+[ 68%] Built target chatting__py
+[ 71%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[ 76%] Built target listener
+[ 81%] Built target chatting__rosidl_generator_py
+[ 86%] Built target chatting_s__rosidl_typesupport_introspection_c
+[ 92%] Built target chatting_s__rosidl_typesupport_c
+[ 97%] Built target chatting_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing chatting.egg-info/PKG-INFO
+writing dependency_links to chatting.egg-info/dependency_links.txt
+writing top-level names to chatting.egg-info/top_level.txt
+reading manifest file 'chatting.egg-info/SOURCES.txt'
+writing manifest file 'chatting.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_chatting_egg
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} and ‘[01m[Kconst char [23][m[K’)
+   43 |         std::string uName = [32m[Kstd::cin[m[K [01;31m[K<<[m[K [34m[K"Enter your user name: "[m[K;
+      |                             [32m[K~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                  [32m[K|[m[K      [34m[K|[m[K
+      |                                  [32m[K|[m[K      [34m[Kconst char [23][m[K
+      |                                  [32m[Kstd::istream {aka std::basic_istream<char>}[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:2[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, const __shared_ptr<_Tp, _Lp>&)[m[K’
+   70 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:70:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/basic_string.h:47[m[K,
+                 from [01m[K/usr/include/c++/13/string:54[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:18[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:4[m[K:
+[01m[K/usr/include/c++/13/string_view:761:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, basic_string_view<_CharT, _Traits>)[m[K’
+  761 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/string_view:761:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4032:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 4032 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4032:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/memory_resource.h:38[m[K,
+                 from [01m[K/usr/include/c++/13/string:58[m[K:
+[01m[K/usr/include/c++/13/cstddef:124:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::[01;32m[Koperator<<[m[K(byte, _IntegerType)[m[K’
+  124 |     [01;36m[Koperator[m[K<<(byte __b, _IntegerType __shift) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/cstddef:124:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:34:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::cin[m[K’ (type ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’}) to type ‘[01m[Kstd::byte[m[K’
+   43 |         std::string uName = [01;36m[Kstd::cin[m[K << "Enter your user name: ";
+      |                             [01;36m[K~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/13/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/13/ios:44[m[K,
+                 from [01m[K/usr/include/c++/13/istream:40[m[K,
+                 from [01m[K/usr/include/c++/13/sstream:40[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:13[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:9[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[01m[K/usr/include/c++/13/system_error:339:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, const error_code&)[m[K’
+  339 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/system_error:339:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/istream:41[m[K:
+[01m[K/usr/include/c++/13/ostream:554:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _CharT)[m[K’
+  554 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:554:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:564:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, char)[m[K’
+  564 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:564:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:570:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, char)[m[K’
+  570 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:570:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:581:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, signed char)[m[K’
+  581 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:581:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:586:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, unsigned char)[m[K’
+  586 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:586:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:645:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, const _CharT*)[m[K’
+  645 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:645:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/ostream:880[m[K:
+[01m[K/usr/include/c++/13/bits/ostream.tcc:307:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, const char*)[m[K’
+  307 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/ostream.tcc:307:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:662:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, const char*)[m[K’
+  662 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:662:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:675:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, const signed char*)[m[K’
+  675 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:675:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:680:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::[01;32m[Koperator<<[m[K(basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+  680 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:680:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<char, _Traits>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:801:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::[01;32m[Koperator<<[m[K(_Ostream&&, const _Tp&)[m[K’
+  801 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/ostream:801:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/usr/include/c++/13/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::[01;32m[Koperator<<[m[K(_Ostream&&, const _Tp&) [35m[K[with _Ostream = std::basic_istream<char>&; _Tp = char [23]][m[K[m[K’:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:34:[m[K   required from here
+[01m[K/usr/include/c++/13/ostream:801:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+In file included from [01m[K/opt/ros/kilted/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:19[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:18[m[K:
+[01m[K/usr/include/c++/13/iomanip:81:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Resetiosflags)[m[K’
+   81 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:81:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:111:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Setiosflags)[m[K’
+  111 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:111:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:145:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Setbase)[m[K’
+  145 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:145:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:180:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Setfill<_CharT>)[m[K’
+  180 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:180:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:210:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Setprecision)[m[K’
+  210 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:210:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:240:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Setw)[m[K’
+  240 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:240:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:313:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Put_money<_MoneyT>)[m[K’
+  313 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:313:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:365:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, _Put_time<_CharT>)[m[K’
+  365 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/iomanip:365:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/usr/include/c++/13/thread:97:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_Ch, _Tr>& std::[01;32m[Koperator<<[m[K(basic_ostream<_Ch, _Tr>&, thread::id)[m[K’
+   97 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/13/thread:97:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:43:41:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::istream[m[K’ {aka ‘[01m[Kstd::basic_istream<char>[m[K’} is not derived from ‘[01m[Kstd::basic_ostream<_Ch, _Tr>[m[K’
+   43 |         std::string uName = std::cin << [01;36m[K"Enter your user name: "[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-220f63d75113124a521a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "chatting__py",
+					"jsonFile" : "directory-chatting__py-728013669047fe7ea877.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/chatting/chatting__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "chatting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_chatting_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_chatting_egg-a001c732e9e404bbefaf.json",
+					"name" : "ament_cmake_python_build_chatting_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_chatting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_chatting-ef290d9af448e67c5edb.json",
+					"name" : "ament_cmake_python_copy_chatting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting-ec627962e88033789114.json",
+					"name" : "chatting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__cpp-3a499c05009460702367.json",
+					"name" : "chatting__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "chatting__py::@6fc4681b0cb01aac3bdf",
+					"jsonFile" : "target-chatting__py-8541191cd444d76cb181.json",
+					"name" : "chatting__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_generator_c-fe45304db875f7dfa596.json",
+					"name" : "chatting__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_generator_py-59d8b6766502ade7e7f0.json",
+					"name" : "chatting__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_generator_type_description-4171dc42418db73e0633.json",
+					"name" : "chatting__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_c-45395e4a40236fbabb41.json",
+					"name" : "chatting__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_cpp-aaffa87d1a6dfcfe639d.json",
+					"name" : "chatting__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_fastrtps_c-1ab3282e4622bf92f162.json",
+					"name" : "chatting__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_fastrtps_cpp-ecc45451779a8c9bb5e3.json",
+					"name" : "chatting__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_introspection_c-a715a0661dc97e949fe7.json",
+					"name" : "chatting__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting__rosidl_typesupport_introspection_cpp-d351295aaea977b24b6e.json",
+					"name" : "chatting__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting_s__rosidl_typesupport_c-c78f37a29518ab323b26.json",
+					"name" : "chatting_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting_s__rosidl_typesupport_fastrtps_c-cb6391b81cd737ea3b28.json",
+					"name" : "chatting_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting_s__rosidl_typesupport_introspection_c-f1499ffd49a7e69af9c5.json",
+					"name" : "chatting_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chatting_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatting_uninstall-a09e73f76b64014d3530.json",
+					"name" : "chatting_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-2658a6dd2b0460a969b5.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-190162daaea23768d629.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5be5e6cdff5caaa2a1df.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/julian/workspace/Studium/ros2_ws/src/chatting/build/chatting",
+		"source" : "/home/julian/workspace/Studium/ros2_ws/src/chatting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

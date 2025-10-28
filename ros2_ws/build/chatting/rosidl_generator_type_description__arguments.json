@@ -1,0 +1,7 @@
+{
+  "package_name": "chatting",
+  "output_dir": "/home/julian/workspace/Studium/ros2_ws/build/chatting/rosidl_generator_type_description/chatting",
+  "idl_tuples": [
+    "/home/julian/workspace/Studium/ros2_ws/build/chatting/rosidl_adapter/chatting:msg/Nachricht.idl"
+  ]
+}

@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/julian/workspace/Studium/ros2_ws/build/chatting': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/chatting -- -j12 -l12
+[0.061s] [  2%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.061s] [  5%] Built target chatting__rosidl_generator_type_description
+[0.077s] [ 10%] Built target listener
+[0.078s] [ 10%] Built target ament_cmake_python_copy_chatting
+[0.084s] [ 13%] Built target chatting__cpp
+[0.089s] [ 26%] Built target chatting__rosidl_generator_c
+[0.117s] [ 44%] Built target chatting__rosidl_typesupport_introspection_c
+[0.117s] [ 44%] Built target chatting__rosidl_typesupport_cpp
+[0.117s] [ 52%] Built target chatting__rosidl_typesupport_fastrtps_c
+[0.118s] [ 57%] Built target chatting__rosidl_typesupport_fastrtps_cpp
+[0.119s] [ 65%] Built target chatting__rosidl_typesupport_c
+[0.124s] [ 73%] Built target chatting__rosidl_typesupport_introspection_cpp
+[0.148s] [ 73%] Built target chatting
+[0.165s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.284s] [01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kchatting/msg/address_book.hpp: No such file or directory
+[0.284s]     5 | #include [01;31m[K"chatting/msg/address_book.hpp"[m[K
+[0.284s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.284s] compilation terminated.
+[0.288s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+[0.288s] gmake[1]: *** [CMakeFiles/Makefile2:625: CMakeFiles/talker.dir/all] Error 2
+[0.288s] gmake[1]: *** Waiting for unfinished jobs....
+[0.313s] running egg_info
+[0.330s] writing chatting.egg-info/PKG-INFO
+[0.330s] writing dependency_links to chatting.egg-info/dependency_links.txt
+[0.330s] writing top-level names to chatting.egg-info/top_level.txt
+[0.376s] reading manifest file 'chatting.egg-info/SOURCES.txt'
+[0.376s] writing manifest file 'chatting.egg-info/SOURCES.txt'
+[0.403s] [ 76%] Built target ament_cmake_python_build_chatting_egg
+[0.446s] [ 76%] Built target chatting__py
+[0.447s] gmake: *** [Makefile:146: all] Error 2
+[0.449s] Invoked command in '/home/julian/workspace/Studium/ros2_ws/build/chatting' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/julian/workspace/Studium/ros2_ws/install/py_pubsub:/home/julian/workspace/Studium/ros2_ws/install/test_controller:/opt/ros/kilted /usr/bin/cmake --build /home/julian/workspace/Studium/ros2_ws/build/chatting -- -j12 -l12

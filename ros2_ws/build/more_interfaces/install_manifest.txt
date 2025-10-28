@@ -1,0 +1,15 @@
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+/home/julian/workspace/Studium/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "chatting/msg/Nachricht",
+      "fields": [
+        {
+          "name": "user",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "text",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "chatting/msg/Nachricht",
+      "hash_string": "RIHS01_b586ae0f25e62e117f0ad5c63eb516a298e21c3c1f79c05e4728bc87734ef6c3"
+    }
+  ]
+}

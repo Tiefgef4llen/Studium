@@ -1,0 +1,103 @@
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:33:36:[m[K [01;31m[Kerror: [m[K‘[01m[KSchreibClient[m[K’ is not a member of ‘[01m[Kchatting::msg[m[K’; did you mean ‘[01m[KSchreibClient[m[K’?
+   33 |   rclcpp::Publisher<chatting::msg::[01;31m[KSchreibClient[m[K>::SharedPtr address_book_publisher_;
+      |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:9:7:[m[K [01;36m[Knote: [m[K‘[01m[KSchreibClient[m[K’ declared here
+    9 | class [01;36m[KSchreibClient[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:33:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   33 |   rclcpp::Publisher<chatting::msg::SchreibClient[01;31m[K>[m[K::SharedPtr address_book_publisher_;
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:33:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   33 |   rclcpp::Publisher<chatting::msg::SchreibClient>::[01;31m[KSharedPtr[m[K address_book_publisher_;
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:33:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_book_publisher_[m[K’ does not name a type
+   33 |   rclcpp::Publisher<chatting::msg::SchreibClient>::SharedPtr [01;31m[Kaddress_book_publisher_[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:[m[K In constructor ‘[01m[KSchreibClient::[01;32m[KSchreibClient[m[K()[m[K’:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_book_publisher_[m[K’ was not declared in this scope
+   15 |     [01;31m[Kaddress_book_publisher_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:16:45:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBook[m[K’ is not a member of ‘[01m[Kchatting::msg[m[K’
+   16 |       this->create_publisher<chatting::msg::[01;31m[KAddressBook[m[K>("address_book", 10);
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:16:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSchreibClient::create_publisher<<expression error> >(const char [13], int)[m[K’
+   16 |       [01;31m[Kthis->create_publisher<chatting::msg::AddressBook>("address_book", 10)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:4[m[K:
+[01m[K/opt/ros/kilted/include/rclcpp/rclcpp/node.hpp:198:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  198 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/kilted/include/rclcpp/rclcpp/node.hpp:198:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:16:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |       [01;31m[Kthis->create_publisher<chatting::msg::AddressBook>("address_book", 10)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:19:33:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBook[m[K’ is not a member of ‘[01m[Kchatting::msg[m[K’
+   19 |   auto message = chatting::msg::[01;31m[KAddressBook[m[K();
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/publisher_lambda_function.cpp:27:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SchreibClient[m[K’ has no member named ‘[01m[Kaddress_book_publisher_[m[K’
+   27 |         this->[01;31m[Kaddress_book_publisher_[m[K->publish(message);
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:39:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBook[m[K’ is not a member of ‘[01m[Kchatting::msg[m[K’
+   36 |   rclcpp::Subscription<chatting::msg::[01;31m[KAddressBook[m[K>::SharedPtr subscription_;
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   rclcpp::Subscription<chatting::msg::AddressBook[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   36 |   rclcpp::Subscription<chatting::msg::AddressBook>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:36:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   36 |   rclcpp::Subscription<chatting::msg::AddressBook>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                               [32m[Krmw_subscription_t[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:[m[K In constructor ‘[01m[KDisplayClient::[01;32m[KDisplayClient[m[K()[m[K’:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:27:35:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBook[m[K’ in namespace ‘[01m[Kchatting::msg[m[K’ does not name a type
+   27 |       [this](const chatting::msg::[01;31m[KAddressBook[m[K::SharedPtr msg) -> void {
+      |                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:30:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   30 |       }[01;31m[K;[m[K
+      |        [01;31m[K^[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:27:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   27 |       [this][01;36m[K([m[Kconst chatting::msg::AddressBook::SharedPtr msg) -> void {
+      |             [01;36m[K^[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:[m[K In lambda function:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:30:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   30 |       }[01;31m[K;[m[K
+      |        [01;31m[K^[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:[m[K In constructor ‘[01m[KDisplayClient::[01;32m[KDisplayClient[m[K()[m[K’:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   31 |     [01;31m[Ksubscription_[m[K =
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:32:48:[m[K [01;31m[Kerror: [m[K‘[01m[KAddressBook[m[K’ is not a member of ‘[01m[Kchatting::msg[m[K’
+   32 |       this->create_subscription<chatting::msg::[01;31m[KAddressBook[m[K>("address_book", 10, topic_callback);
+      |                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:32:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KDisplayClient::create_subscription<<expression error> >(const char [13], int, DisplayClient::DisplayClient()::<lambda(int)>&)[m[K’
+   32 |       [01;31m[Kthis->create_subscription<chatting::msg::AddressBook>("address_book", 10, topic_callback)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:17[m[K:
+[01m[K/opt/ros/kilted/include/rclcpp/rclcpp/node.hpp:222:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  222 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/kilted/include/rclcpp/rclcpp/node.hpp:222:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/julian/workspace/Studium/ros2_ws/src/chatting/src/subscriber_lambda_function.cpp:32:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   32 |       [01;31m[Kthis->create_subscription<chatting::msg::AddressBook>("address_book", 10, topic_callback)[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:657: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
